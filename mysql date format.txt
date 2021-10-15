@@ -1,0 +1,7 @@
+dob date,
+dobtime time,
+dat datetime
+
+let _format = ()=>{ date = new Date(); var dateFormat = date.getDate() + "/" + (date.getMonth() + 1) + "/" + date.getFullYear() ; return dateFormat}
+var getDateNow = _format()
+// getDateNow ---- 27/6/2021

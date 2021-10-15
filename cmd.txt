@@ -1,0 +1,7 @@
+create folder ---- mkdir <"folder name">
+create file ---- echo > <"file name">
+rename folder ---- ren <"Full path of folder"> <"New Name">
+clear cmd scr ---- cls or clear (for vs)
+exit cmd scr ---- exit
+change dir ---- cd 
+delete folder ---- del /f <name> % /f use to forcefully delete

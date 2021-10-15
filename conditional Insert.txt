@@ -1,0 +1,3 @@
+SELECT date FROM Products WHERE NOT EXISTS (SELECT * FROM Customers WHERE date<${data.date})
+ SELECT date FROM Customers WHERE NOT EXISTS (SELECT * FROM Products WHERE date<${data.date})
+SELECT email FROM User WHERE NOT EXISTS (SELECT * FROM User WHERE email=${data.email} AND date=${data.date})
