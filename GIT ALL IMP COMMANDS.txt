@@ -1,0 +1,33 @@
+GIT COMMANDS
+
+* Repo Status
+- git status
+
+* Add Origin 
+- git remote add origin <git_code_link>
+
+* New Brand
+- git branch <brand_name> 
+
+* New Brand (Single setup)
+- git checkout -b <brand_name> 
+
+* All Branch List
+- git branch --list
+
+* Switch to other branch
+- git checkout <brand_name> 
+
+* Clone Git Repo
+- git clone <git_code_link>
+
+* Pull Git Repo
+- git pull <git_code_link>
+
+* Push Normally
+- git push -u origin <brand_name> 
+
+* Push Code in new branch
+- git push --set-upstream origin <brand_name> 
+
+LEARN GIT https://www.w3schools.com/git/default.asp?remote=github
